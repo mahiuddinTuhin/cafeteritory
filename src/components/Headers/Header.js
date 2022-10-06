@@ -7,7 +7,7 @@ const Header = () => {
         <h1>Cafeteritory</h1>
       </div>
       <div className="flex justify-around">
-        <p>Drinks</p>
+        <a href="/drinks">Drinks</a>
         <p>Meal</p>
         <p>Products</p>
         <p>Cart</p>
