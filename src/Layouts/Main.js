@@ -12,11 +12,11 @@ const Main = () => {
     <div>
       <Header></Header>
       <Outlet></Outlet>
-      <HeaderContent></HeaderContent>
+      {/* <HeaderContent></HeaderContent>
       <Statistic></Statistic>
       <Blog></Blog>
       <Team></Team>
-      <Footer></Footer>
+      <Footer></Footer> */}
     </div>
   );
 };
