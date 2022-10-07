@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import { Blog } from "../Components/Header_Footer/Blog";
 import { Footer } from "../Components/Header_Footer/Footer";
 import Header from "../Components/Header_Footer/Header";
@@ -10,6 +11,7 @@ const Main = () => {
   return (
     <div>
       <Header></Header>
+      <Outlet></Outlet>
       <HeaderContent></HeaderContent>
       <Statistic></Statistic>
       <Blog></Blog>
