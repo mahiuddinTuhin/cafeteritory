@@ -8,7 +8,7 @@ const Header = () => {
       </div>
       <div className="flex justify-around">
         <a href="/drinks">Drinks</a>
-        <p>Meal</p>
+        <a href="/meal">Meal</a>
         <p>Products</p>
         <p>Cart</p>
         <p>Contact</p>

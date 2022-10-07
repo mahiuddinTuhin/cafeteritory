@@ -12,11 +12,10 @@ export const router = createBrowserRouter([
         path: "drinks",
         element: <Drinks></Drinks>,
       },
+      {
+        path: "*",
+        element: <h1>Error page 404 not found</h1>,
+      },
     ],
-  },
-
-  {
-    path: "*",
-    element: <h1>Error page 404 not found</h1>,
   },
 ]);
