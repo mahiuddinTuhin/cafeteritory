@@ -1,5 +1,5 @@
 import React from "react";
-import { Blog } from "../Components/Blog";
+import { Blog } from "../Components/Header_Footer/Blog";
 import { Footer } from "../Components/Header_Footer/Footer";
 import Header from "../Components/Header_Footer/Header";
 import { HeaderContent } from "../Components/Header_Footer/HeaderContent";

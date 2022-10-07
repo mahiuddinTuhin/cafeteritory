@@ -13,7 +13,7 @@ export const Blog = () => {
               <p className="text-lg font-bold">18</p>
             </div>
           </div>
-          <div>
+          <div className="flex flex-col items-start">
             <div className="mb-2">
               <a
                 href="/"
@@ -33,7 +33,7 @@ export const Blog = () => {
                 Why I love Laravel
               </a>
             </div>
-            <p className="mb-5 text-gray-700">
+            <p className="mb-5 text-left text-gray-700">
               Sed ut perspiciatis unde omnis iste natus error sit sed quia
               consequuntur magni voluptatem doloremque.
             </p>
@@ -70,7 +70,7 @@ export const Blog = () => {
               <p className="text-lg font-bold">6</p>
             </div>
           </div>
-          <div>
+          <div className="flex flex-col items-start">
             <div className="mb-2">
               <a
                 href="/"
@@ -90,7 +90,7 @@ export const Blog = () => {
                 Pizza, you should try it
               </a>
             </div>
-            <p className="mb-5 text-gray-700">
+            <p className="mb-5 text-left text-gray-700">
               Sed ut perspiciatis unde omnis iste natus error sit sed quia
               consequuntur magni voluptatem doloremque.
             </p>
@@ -127,7 +127,7 @@ export const Blog = () => {
               <p className="text-lg font-bold">27</p>
             </div>
           </div>
-          <div>
+          <div className="flex flex-col items-start">
             <div className="mb-2">
               <a
                 href="/"
@@ -147,7 +147,7 @@ export const Blog = () => {
                 Whatever, just feed me
               </a>
             </div>
-            <p className="mb-5 text-gray-700">
+            <p className="mb-5 text-left text-gray-700">
               Sed ut perspiciatis unde omnis iste natus error sit sed quia
               consequuntur magni voluptatem doloremque.
             </p>

@@ -28,39 +28,42 @@ export const Header = () => {
             <rect x="14" y="1" width="7" height="6" />
             <rect x="14" y="11" width="7" height="12" />
           </svg>
-          <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-            Company
-          </span>
+          <NavLink
+            to="/"
+            class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase"
+          >
+            Cafeteritory
+          </NavLink>
         </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="/"
+              href="/meals"
               aria-label="Our product"
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
             >
-              Product
+              Meal
             </a>
           </li>
           <li>
             <a
-              href="/"
+              href="/drinks"
               aria-label="Our product"
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
             >
-              Features
+              Drinks
             </a>
           </li>
           <li>
             <a
-              href="/"
+              href="/products"
               aria-label="Product pricing"
               title="Product pricing"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
             >
-              Pricing
+              Product
             </a>
           </li>
           <li>
@@ -162,7 +165,7 @@ export const Header = () => {
                         title="Our product"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-purple-400"
                       >
-                        Product
+                        Meal
                       </a>
                     </li>
                     <li>

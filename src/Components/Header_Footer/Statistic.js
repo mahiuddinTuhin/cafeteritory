@@ -5,7 +5,7 @@ export const Statistic = () => {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 row-gap-8 lg:grid-cols-3">
         <div className="flex flex-col justify-center items-center">
-          <div className="flex">
+          <div className="flex items-center">
             <h6 className="mr-2 text-4xl font-bold md:text-5xl text-purple-400">
               86K
             </h6>
@@ -32,7 +32,7 @@ export const Statistic = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <div className="flex">
+          <div className="flex items-center">
             <h6 className="mr-2 text-4xl font-bold md:text-5xl text-purple-400">
               1.3K
             </h6>
@@ -59,7 +59,7 @@ export const Statistic = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <div className="flex">
+          <div className="flex items-center">
             <h6 className="mr-2 text-4xl font-bold md:text-5xl text-purple-400">
               52M
             </h6>
