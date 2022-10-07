@@ -10,7 +10,7 @@ const Home = () => {
           to="about"
           alt=""
         >
-          about
+          About
         </Link>
         <Link
           className="px-10 py-3 bg-slate-300  rounded-md"
