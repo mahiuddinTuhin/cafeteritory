@@ -6,15 +6,16 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    children: [
+      {
+        path: "/drinks",
+        element: <Drinks></Drinks>,
+      },
+    ],
   },
 
   {
-    path: "/drinks",
-    element: <Drinks></Drinks>,
-  },
-
-  {
-    path: "/*",
+    path: "*",
     element: <h1>Error page 404 not found</h1>,
   },
 ]);
