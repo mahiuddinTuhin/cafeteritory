@@ -1,16 +1,10 @@
 import { createBrowserRouter, NavLink } from "react-router-dom";
+import Main from "../Main";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <div>
-        <h1>inside home</h1>
-        <NavLink to="about" alt="">
-          about
-        </NavLink>
-      </div>
-    ),
+    element: <Main></Main>,
   },
   {
     path: "about",
